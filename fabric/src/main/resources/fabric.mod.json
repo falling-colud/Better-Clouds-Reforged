@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "better_clouds",
+  "version": "${version}",
+
+  "name": "Better Clouds",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All Rights Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.cloud.better_clouds.fabric.BetterCloudsFabric"
+    ]
+  },
+  "mixins": [
+    "better_clouds.mixins.json",
+    "better_clouds-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": ">=1.20.1"
+  }
+}
