@@ -36,7 +36,6 @@ repositories {
 dependencies {
     forge "net.minecraftforge:forge:${rootProject.forge_version}"
     // Remove the next line if you don't want to depend on the API
-    modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}"
     compileOnly "maven.modrinth:DistantHorizonsApi:1.0.0"
 
     modCompileOnly "curse.maven:rubidium-extra-${project.rubidium_extra_version}"
